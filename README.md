@@ -7,13 +7,13 @@ The use of pandas and regression learning to train machine learning to predict t
   The second is the prediction of the sex of the passengers based on the given data
   
 The following libraries were used:
-  operator
-  matplotlib
-  numpy
-  pyparsing 
-  sklearn.linear_model 
-  sklearn.metrics
-  pandas as pd
-  re
-  seaborn as sns
+  operator,
+  matplotlib,
+  numpy,
+  pyparsing, 
+  sklearn.linear_model,
+  sklearn.metrics,
+  pandas,
+  re,
+  seaborn,
   math
