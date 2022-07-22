@@ -13,7 +13,7 @@ pd.set_option('display.max_rows', 500)
 pd.set_option('display.max_columns', 500)
 pd.set_option('display.width', 1000)
 
-df = pd.read_csv("py/train/training.csv")
+df = pd.read_csv("./train/training.csv")
 
 cleanDf = df
 df_gender = df
@@ -80,7 +80,7 @@ model.fit(x,y)
 model2.fit(z,w)
 
 
-dft = pd.read_csv("py/testData/test.csv")
+dft = pd.read_csv("./testData/test.csv")
 
 cleanDf = dft
 df_gender = dft
@@ -145,4 +145,4 @@ for ind in result.index:
     else:
         result["Sex"][ind] = "Female"
 
-result.to_csv(r'py/results/submission.csv', index = False)
+result.to_csv(r'./results/submission.csv', index = False)
